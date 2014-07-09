@@ -125,7 +125,6 @@
 		34990B6616DB2D0100F21F74 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34990B6416DB2D0100F21F74 /* NewViewController.m */; };
 		34990B6716DB2D0100F21F74 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34990B6516DB2D0100F21F74 /* NewViewController.xib */; };
 		349A318D170EBB3300468E92 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349A318C170EBB3300468E92 /* StoreKit.framework */; };
-		34A07D6B1761C4D200F1D2B5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A07D6D1761C4D200F1D2B5 /* Localizable.strings */; };
 		34A07D951761E18D00F1D2B5 /* button_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A07D941761E18D00F1D2B5 /* button_cancel.png */; };
 		34CEB9A9176835C2003D66EF /* fullIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CEB9A7176835C2003D66EF /* fullIcon.png */; };
 		34CEB9AA176835C2003D66EF /* upIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CEB9A8176835C2003D66EF /* upIcon.png */; };
@@ -137,6 +136,8 @@
 		34E68F2D177AD3AA005A9E28 /* button_black_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E68F2B177AD3AA005A9E28 /* button_black_stop.png */; };
 		34E68F2F177AD44B005A9E28 /* button_eject.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E68F2E177AD44B005A9E28 /* button_eject.png */; };
 		34E68F31177AD941005A9E28 /* button_black_eject.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E68F30177AD941005A9E28 /* button_black_eject.png */; };
+		34F86765196D618D0029F64C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34F86760196D618D0029F64C /* Localizable.strings */; };
+		34F86766196D618D0029F64C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34F86763196D618D0029F64C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -289,8 +290,6 @@
 		34990B6416DB2D0100F21F74 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		34990B6516DB2D0100F21F74 /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
 		349A318C170EBB3300468E92 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		34A07D6C1761C4D200F1D2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		34A07D6E1761C4D600F1D2B5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		34A07D941761E18D00F1D2B5 /* button_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_cancel.png; sourceTree = "<group>"; };
 		34CEB9A7176835C2003D66EF /* fullIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullIcon.png; sourceTree = "<group>"; };
 		34CEB9A8176835C2003D66EF /* upIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upIcon.png; sourceTree = "<group>"; };
@@ -302,6 +301,8 @@
 		34E68F2B177AD3AA005A9E28 /* button_black_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_black_stop.png; sourceTree = "<group>"; };
 		34E68F2E177AD44B005A9E28 /* button_eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_eject.png; sourceTree = "<group>"; };
 		34E68F30177AD941005A9E28 /* button_black_eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_black_eject.png; sourceTree = "<group>"; };
+		34F86761196D618D0029F64C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		34F86764196D618D0029F64C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +397,8 @@
 		346B8B6116D224AC00F9B50A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34F8675F196D618D0029F64C /* en.lproj */,
+				34F86762196D618D0029F64C /* ja.lproj */,
 				34E68F30177AD941005A9E28 /* button_black_eject.png */,
 				34E68F2E177AD44B005A9E28 /* button_eject.png */,
 				34E68F2A177AD3AA005A9E28 /* button_black_play.png */,
@@ -410,7 +413,6 @@
 				34D16BEA1765A9A2002463EA /* Icon-72@2x.png */,
 				34D16BEB1765A9A2002463EA /* Icon.png */,
 				34D16BEC1765A9A2002463EA /* Icon@2x.png */,
-				34A07D6D1761C4D200F1D2B5 /* Localizable.strings */,
 				34053207170FEAA700FA091B /* shopping_cart.png */,
 				3494818716E1BA8100CE6752 /* penguin.png */,
 				3494818516E1B8FB00CE6752 /* tux.png */,
@@ -593,6 +595,22 @@
 			path = WCAlertView;
 			sourceTree = "<group>";
 		};
+		34F8675F196D618D0029F64C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				34F86760196D618D0029F64C /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		34F86762196D618D0029F64C /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				34F86763196D618D0029F64C /* Localizable.strings */,
+			);
+			path = ja.lproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -723,7 +741,6 @@
 				3472E0921761A93B0001D481 /* iPadMenuViewController.xib in Resources */,
 				3472E0971761A9B20001D481 /* iPadViewController.xib in Resources */,
 				3472E09C1761A9C30001D481 /* iPadScoreViewController.xib in Resources */,
-				34A07D6B1761C4D200F1D2B5 /* Localizable.strings in Resources */,
 				34A07D951761E18D00F1D2B5 /* button_cancel.png in Resources */,
 				34D16BED1765A9A2002463EA /* Icon-72.png in Resources */,
 				34D16BEE1765A9A2002463EA /* Icon-72@2x.png in Resources */,
@@ -742,6 +759,8 @@
 				34982F4D196D5ED200D1F8A3 /* .gitignore in Resources */,
 				34982F4F196D5ED200D1F8A3 /* Appirater.podspec in Resources */,
 				34982F50196D5ED200D1F8A3 /* AppiraterLocalizable.strings in Resources */,
+				34F86765196D618D0029F64C /* Localizable.strings in Resources */,
+				34F86766196D618D0029F64C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,14 +811,21 @@
 			name = AppiraterLocalizable.strings;
 			sourceTree = "<group>";
 		};
-		34A07D6D1761C4D200F1D2B5 /* Localizable.strings */ = {
+		34F86760196D618D0029F64C /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34A07D6C1761C4D200F1D2B5 /* en */,
-				34A07D6E1761C4D600F1D2B5 /* ja */,
+				34F86761196D618D0029F64C /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
+		};
+		34F86763196D618D0029F64C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F86764196D618D0029F64C /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
